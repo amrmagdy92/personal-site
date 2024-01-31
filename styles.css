@@ -1,0 +1,21 @@
+.project-link {
+    text-decoration: none;
+    color: black;
+    border-radius: 5%;
+}
+
+.project-link:hover {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        background-color: white;
+        color: black;
+    }
+    100% {
+        background-color: #f2d680;
+    }
+}
